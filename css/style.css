@@ -2,9 +2,14 @@ body {
     background-color: LightGray;
     margin: 0; padding: 0;
 }
+
 div {
     border: 1px solid Chocolate;
 }
+
+h1 {font-weight: 300; font-size: 52px;}
+h2 {font-weight: 100; font-size: 24px;}
+h3 {font-weight: 100; font-size: 20px;}
 
 .header {
 	width: 100%;
@@ -57,13 +62,13 @@ ul.navbar li{
 	height: 735px; width: 100%;
 	background: url(images/first-background.jpg);
 	border: 0; padding: 0;
-	position: absolute;
 	background-position: 40% 80%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: block;
 }
 
-.container {
+.container, .container2 {
 	max-width: 800px;
 	max-height: 735px;
 	border: 0; padding 0;
@@ -78,23 +83,9 @@ ul.navbar li{
 	color: white;
 }
 
-.container h1{
-	font-weight: 300;
-	font-size: 52px;
-	margin-bottom: 28px;
-}
-
-.container h2{
-	font-weight: 100;
-	font-size: 24px;
-	margin-top: 0px;
-}
-
-.container h3{
-	font-weight: 100;
-	font-size: 20px;
-	margin: 0;
-}
+.container h1{margin-bottom: 28px;}
+.container h2{margin-top: 0px;} 
+.container h3{margin: 0;}
 
 .big-button {
 	width: 10rem;
@@ -116,4 +107,48 @@ ul.navbar li{
 	border-style: none;
 	border-radius: 4px;
 	padding: 15px 0px;
+}
+
+.content-background {
+	overflow: hidden;
+	display: block;
+	background-color: white;
+	width: 100%;
+	height: 550px;
+}
+
+.container2 {
+	top: 20%;
+	color: black;
+}
+
+ul.contentlist li{
+	display: inline;
+	width: 200px;
+	float: left;
+	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+ul.contentlist:after{
+	content: none;
+	display: inline-block;
+	width: 100%;
+}
+
+ul.contentlist {
+	display: inline-block;
+	padding: 0;
+	margin-top: 50px;
+}
+
+ul.contentlist img{
+	width: 150px;
+	height: 100%;
+}
+
+ul.contentlist p{
+	font-size: 18px;
+	font-weight: 100;
 }
