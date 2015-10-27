@@ -1,0 +1,119 @@
+body {
+    background-color: LightGray;
+    margin: 0; padding: 0;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	z-index: 10;
+	position: fixed;
+}
+
+h1.logo{
+	background-image: url("images/karma-logo.svg");
+	background-repeat: no-repeat;
+	background-size: auto 75px;
+	height: 100px; width: 75px;
+	margin: 0px 0px 0px 100px; padding: 0;
+	background-position: left center;
+	float: left;
+}
+
+h1.logo span{
+	display: none;
+}
+
+ul.navbar {
+	margin: 0; padding: 0px 100px 0px 0px;
+	line-height: 100px;
+	vertical-align: middle;
+	float: right;
+}
+
+ul.navbar a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.5em;
+	font-family: 'Roboto', sans-serif;
+  	font-size: 16px;
+  	color: #838994;
+}
+
+ul.navbar a:hover {
+	font-weight: 400px;
+	color: black;
+}
+
+ul.navbar li{
+	display: inline;
+}
+
+.first-background {
+	height: 735px; width: 100%;
+	background: url(images/first-background.jpg);
+	border: 0; padding: 0;
+	position: absolute;
+	background-position: 40% 80%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 800px;
+	max-height: 735px;
+	border: 0; padding 0;
+	position: relative;
+	top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.container h1,.container h2,.container h3 {
+	color: white;
+}
+
+.container h1{
+	font-weight: 300;
+	font-size: 52px;
+	margin-bottom: 28px;
+}
+
+.container h2{
+	font-weight: 100;
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.container h3{
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0;
+}
+
+.big-button {
+	width: 10rem;
+	margin: auto;
+	background-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 15px 0px;
+	color: white;
+}
+
+.big-button:hover {
+	width: 10rem;
+	margin: auto;
+	background-color: #fff;
+	color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 15px 0px;
+}

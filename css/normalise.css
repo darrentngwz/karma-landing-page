@@ -7,7 +7,9 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -399,7 +401,7 @@ legend {
 textarea {
   overflow: auto;
 }
-
+  
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
