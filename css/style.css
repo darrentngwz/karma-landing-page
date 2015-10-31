@@ -152,3 +152,38 @@ ul.contentlist p{
 	font-size: 18px;
 	font-weight: 100;
 }
+
+hr {
+	margin: 0; padding: 0;
+	width: 350px;
+	margin-left: 430px;
+}
+
+.footer {
+	background-color: white;
+	width: 100%;
+	height: 110px;
+	text-align: center;
+}
+
+ul.footerlist {
+	display: inline-block;
+	width: 100%;
+	margin: 0; padding: 0;
+	text-align: center;
+}
+
+ul.footerlist li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+
+ul.footerlist li a{
+	text-decoration: none;
+	color: #f15a29;
+}
+
+.footer h3, .footer p {
+	margin: 10px 0px;
+	padding: 0;
+}
